@@ -3,7 +3,7 @@ import Storage from './container/Usestorage'
 
 function App() {
   const [input, setInput] = Storage('Input');
-
+  console.log(input);
   return (
     <>
     <input type="text" 
